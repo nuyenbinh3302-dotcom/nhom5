@@ -1,9 +1,6 @@
-Các Mở Rộng Của C++ So Với C
-Tài liệu hướng dẫn và so sánh chi tiết 12 nâng cấp cốt lõi của **C++** so với **C truyền thống**. Các mở rộng này không chỉ giúp viết mã nguồn ngắn gọn, an toàn hơn mà còn đặt nền móng cho phương pháp **Lập trình hướng đối tượng (OOP)**.
-
 ---
 
-## 📋 Mục lục
+## Mục lục
 4. [Vị trí khai báo biến (Variable Declarations)](#4-vị-trí-khai-báo-biến-variable-declarations)
 5. [Kiểu cấu trúc (`struct`)](#5-kiểu-cấu-trúc-struct)
 6. [Toán tử phạm vi (Scope Resolution Operator `::`)](#6-toán-tử-phạm-vi-scope-resolution-operator-)
