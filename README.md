@@ -8,6 +8,8 @@ Phân công công việc nhóm 5:
 
 10-12: Vũ Đức Bình
 
+Tổng Hợp ND: Lục Bình Nguyên
+
 
  Các Mở Rộng Của C++ So Với C
 
