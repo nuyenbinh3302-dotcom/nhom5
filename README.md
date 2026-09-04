@@ -1,3 +1,10 @@
+Phân công công việc nhóm 5:
+1-3: Nguyễn Huyền Trang
+4-6: Nguyễn Nam Khánh
+7-9: Phạm Bách Minh
+10-12: Vũ Đức Bình
+
+
  Các Mở Rộng Của C++ So Với C
 
 Tài liệu hướng dẫn và so sánh chi tiết 12 nâng cấp cốt lõi của **C++** so với **C truyền thống**. Các mở rộng này không chỉ giúp viết mã nguồn ngắn gọn, an toàn hơn mà còn đặt nền móng cho phương pháp **Lập trình hướng đối tượng **.
