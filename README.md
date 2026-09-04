@@ -4,7 +4,7 @@ Tài liệu hướng dẫn và so sánh chi tiết 12 nâng cấp cốt lõi c�
 
 ---
 
-## 📋 Mục lục
+##  Mục lục
 
 7. [Cấp phát và giải phóng bộ nhớ (`new` / `delete`)](#7-cấp-phát-và-giải-phóng-bộ-nhớ-new--delete)
 8. [Hàm Inline (Inline Functions)](#8-hàm-inline-inline-functions)
