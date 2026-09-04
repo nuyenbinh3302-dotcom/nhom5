@@ -1,0 +1,96 @@
+10. Biến tham chiếu (Reference)
+
+C++ cung cấp kiểu tham chiếu bằng ký hiệu &.
+Ví dụ:
+int a = 10;
+int &ref = a;
+Lúc này ref là một tên khác của a.
+ref = 20;
+cout << a;
+Kết quả:
+20
+Tham chiếu trong hàm
+Tham chiếu thường được sử dụng để truyền tham số mà không cần tạo bản sao.
+void swap(int &a, int &b) {
+    int temp = a;
+    a = b;
+    b = temp;
+}
+Sử dụng:
+int x = 10;
+int y = 20;
+swap(x, y);
+Sau khi gọi hàm:
+x = 20
+y = 10
+Đây là một trong những điểm mở rộng quan trọng của C++ so với C.
+
+11. Chồng hàm (Function Overloading)
+
+C++ cho phép nhiều hàm có cùng tên nhưng khác danh sách tham số.
+Ví dụ:
+int add(int a, int b) {
+    return a + b;
+}
+double add(double a, double b) {
+    return a + b;
+}
+Có thể gọi:
+cout << add(2, 3) << endl;
+cout << add(2.5, 3.5) << endl;
+C++ sẽ dựa vào kiểu và số lượng tham số để xác định hàm phù hợp.
+Có thể chồng hàm dựa trên:
+Số lượng tham số.
+Kiểu dữ liệu của tham số.
+Thứ tự kiểu dữ liệu của tham số.
+Không thể chỉ dựa vào kiểu trả về:
+int test(int a);
+double test(int a); // Không hợp lệ
+
+12. Chồng toán tử (Operator Overloading)
+
+C++ cho phép định nghĩa lại ý nghĩa của một số toán tử đối với kiểu dữ liệu do người lập trình định nghĩa.
+Ví dụ, xây dựng lớp Point:
+#include <iostream>
+using namespace std;
+class Point {
+public:
+    int x;
+    int y;
+    Point(int x = 0, int y = 0) {
+        this->x = x;
+        this->y = y;
+    }
+    Point operator+(const Point& p) {
+        return Point(x + p.x, y + p.y);
+    }
+};
+Sử dụng:
+int main() {
+    Point p1(2, 3);
+    Point p2(4, 5);
+    Point p3 = p1 + p2;
+    cout << p3.x << " " << p3.y;
+    return 0;
+}
+Kết quả:
+6 8
+Ở đây toán tử + được định nghĩa để cộng hai đối tượng Point.
+Một số toán tử có thể chồng
++
+-
+*
+/
+==
+!=
+<
+>
+<=
+>=
+++
+--
+[]
+()
+<<
+>>
+Không phải tất cả toán tử đều có thể được chồng. Ví dụ ::, ., .*, ?: không thể được overload theo cách thông thường.
