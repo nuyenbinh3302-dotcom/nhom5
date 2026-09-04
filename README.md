@@ -15,7 +15,7 @@ Tổng Hợp ND: Lục Bình Nguyên
 
 ---
 
-## 📋 Mục lục
+## Mục lục
 
 1. [Chú thích (Comments)](#1-chú-thích-comments)
 2. [Nhập/Xuất dữ liệu (Input/Output)](#2-nhậpxuất-dữ-liệu-inputoutput)
